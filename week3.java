@@ -158,41 +158,41 @@
 
 //     }
 // }
-public class week3{
-    public static void main(String[]args){
-        // int i=5;
-        // int sum = 6+ i++;
-        // System.out.println("sum is:" + sum);
-        // int k=5;
-        // int sum1 = 6 + ++k;
-        // System.out.println("sum1 is:" + sum1);
-        // int sum2 = 6+ i;
-        // System.out.println("sum1 is:" + sum2);
+// public class week3{
+//     public static void main(String[]args){
+//         // int i=5;
+//         // int sum = 6+ i++;
+//         // System.out.println("sum is:" + sum);
+//         // int k=5;
+//         // int sum1 = 6 + ++k;
+//         // System.out.println("sum1 is:" + sum1);
+//         // int sum2 = 6+ i;
+//         // System.out.println("sum1 is:" + sum2);
 
-        String name="my name";
-        String name1= new String("myname");
-        String name2=name+name1;
-        String name3= name.concat(name2);
-        char val=name.charAt(0);
-        System.out.println(name.length());
-        String value=name.substring(1,4);
-        System.out.println(value);
-        System.out.println(name.equals("my name"));
-        System.out.println(name.equalsIgnoreCase("My name"));
-        name.contains("Name");
-        name.startsWith("my");
-        name.endsWith("name");
-        name.indexOf("name");
-        name.lastIndexOf("name");
-        name.toLowerCase();
-        name.toUpperCase();
-        String val1= "Hello".trim();
-        name.replace("a","b");
-        String stringToSplit ="abc.def.ghi";
-        String[] seq=stringToSplit.split(".");
-        int number=1;
-        String numString=String.valueOf(number);
+//         String name="my name";
+//         String name1= new String("myname");
+//         String name2=name+name1;
+//         String name3= name.concat(name2);
+//         char val=name.charAt(0);
+//         System.out.println(name.length());
+//         String value=name.substring(1,4);
+//         System.out.println(value);
+//         System.out.println(name.equals("my name"));
+//         System.out.println(name.equalsIgnoreCase("My name"));
+//         name.contains("Name");
+//         name.startsWith("my");
+//         name.endsWith("name");
+//         name.indexOf("name");
+//         name.lastIndexOf("name");
+//         name.toLowerCase();
+//         name.toUpperCase();
+//         String val1= "Hello".trim();
+//         name.replace("a","b");
+//         String stringToSplit ="abc.def.ghi";
+//         String[] seq=stringToSplit.split(".");
+//         int number=1;
+//         String numString=String.valueOf(number);
 
 
-    }
-}
+//     }
+// }
