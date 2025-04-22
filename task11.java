@@ -4,15 +4,20 @@ public class task11 {
         Scanner sc=new Scanner(System.in);
         System.out.println("enter any number:");
         int a = sc.nextInt();
-        if (a%1==0 && a%a==0){
-            System.out.println("number is prime");
+        int k=0;
+        for(int i=1;i<=a;i++){
+            if(a%i==0){
+                k+=1;
+            }
         }
-        else if (a%1==0 && a%a!=0){
-            System.out.println("number is not prime");
+        if (k==2){
+            System.out.println("the number is prime");
+        }else if (k==2){
+            System.out.println("It is prime");
+        }else if (k>2){
+            System.out.println("It is composite");
         }
-        else{
-            System.out.println("number is not prime");
-        }
+        
         sc.close();
     }
     
